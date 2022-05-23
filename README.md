@@ -21,8 +21,6 @@ Non-parametric learning algorithm − KNN is also a non-parametric learning algo
 
 ## Program:
 ```
-/*
-Program to implement KNN classification algorithm.
 Developed by   : Sai Darshan G
 RegisterNumber : 212221240047
 from random import seed
@@ -162,12 +160,9 @@ num_neighbors = 5
 scores = evaluate_algorithm(dataset, k_nearest_neighbors, n_folds, num_neighbors)
 print('Scores: %s' % scores)
 print('Mean Accuracy: %.3f%%' % (sum(scores)/float(len(scores))))
-*/
-```
 
+```
 ## Output:
 ![KNN classification algorithm](4.png)
-
-
 ## Result:
 Thus the python program successully implemented KNN classification algorithm.
